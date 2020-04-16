@@ -1,0 +1,27 @@
+{
+    "@type": "MessageCard",
+    "@context": "https://schema.org/extensions",
+    "themeColor": "0075FF",
+    "sections": [
+        {
+            "startGroup": true,
+            "title": "**New Ticket Created: ##ticketId#** [(View Ticket)](#url#)",
+            "activityTitle": "Requested by **#from#**",
+            "activitySubtitle": "#fromEmail#",
+            "facts": [
+                {
+                    "name": "Type:",
+                    "value": "#cf_1#"
+                },
+                {
+                    "name": "Subject:",
+                    "value": "#subject#"
+                },
+                {
+                    "name": "Body:",
+                    "value": "#body#"
+                }
+            ]
+        }
+    ]
+}
