@@ -1,0 +1,19 @@
+{
+    "@type": "MessageCard",
+    "@context": "https://schema.org/extensions",
+    "themeColor": "0075FF",
+    "sections": [
+        {
+            "startGroup": true,
+            "title": "**New Customer Comment: ##ticketId#** [(View Ticket)](#url#)",
+            "activityTitle": "User: **#from#**",
+            "activitySubtitle": "#fromEmail#",
+            "facts": [
+                {
+                    "name": "Comment:",
+                    "value": "#most_recent_message#"
+                }
+            ]
+        }
+    ]
+}
