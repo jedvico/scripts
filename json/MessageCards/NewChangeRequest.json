@@ -1,0 +1,69 @@
+{
+    "@type": "MessageCard",
+    "@context": "https://schema.org/extensions",
+    "themeColor": "0075FF",
+    "sections": [
+        {
+            "startGroup": true,
+            "title": "**Request for Change ##ticketId#** [(View Ticket)](#url#)",
+            "activityTitle": "Requested by **#from#**",
+            "activitySubtitle": "#fromEmail#",
+            "facts": [
+                {
+                    "name": "Impact:",
+                    "value": "#cf_2#"
+                },
+                {
+                    "name": "Priority:",
+                    "value": "#priority#"
+                },
+                {
+                    "name": "Change Type:",
+                    "value": "#cf_6#"
+                },
+                {
+                    "name": "Change Planned Start Date:",
+                    "value": "#cf_7#"
+                },
+                {
+                    "name": "Change Planned End Date:",
+                    "value": "#cf_8#"
+                },
+                {
+                    "name": "Change:",
+                    "value": "#subject#"
+                },
+                {
+                    "name": "Reason:",
+                    "value": "#cf_4#"
+                }
+            ]
+        },
+        {
+            "startGroup": true,
+            "facts": [
+                {
+                    "name": "Minor and Standard:",
+                    "value": "There's no need for CAB members to approve"
+                },
+                {
+                    "name": "Major and Expedite:",
+                    "value": "All members of the CAB must approve"
+                }
+            ]
+        },
+        {
+            "startGroup": true,
+            "facts": [
+                {
+                    "name": "CAB Members:",
+                    "value": "Eduardo Villegas, David Prieto, Rogelio Calderon"
+                }
+            ]
+        },
+        {
+            "startGroup": true,
+            "activitySubtitle": "Approval proccess must be done within this post. Please use MS Teams to share your thoughts and approve or reject the change."
+        }
+    ]
+}
