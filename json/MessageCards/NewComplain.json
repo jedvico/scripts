@@ -1,0 +1,23 @@
+{
+    "@type": "MessageCard",
+    "@context": "https://schema.org/extensions",
+    "themeColor": "0075FF",
+    "sections": [
+        {
+            "startGroup": true,
+            "title": "**Customer Complain ##ticketId#** [(View Ticket)](#url#)",
+            "activityTitle": "Submitter **#from#**",
+            "activitySubtitle": "#fromEmail#",
+            "facts": [
+                {
+                    "name": "Complain:",
+                    "value": "#subject#"
+                },
+                {
+                    "name": "Reason:",
+                    "value": "#body#"
+                }
+            ]
+        }
+    ]
+}
