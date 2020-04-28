@@ -13,12 +13,12 @@ if($update)
 {
     # Put any action needed here if the KB is present
     # like write a network shared file with computer hostname
-    Write-Host "Founded!"
+    write-host "Founded!"
 }
 else
 {
     # In case not found, do your stuff here
     # like access a network location where the KB is stored
     # and proceed to installation
-    Write-Host "No luck mate, need to installit"
+    write-host "No luck mate, need to install it"
 }
