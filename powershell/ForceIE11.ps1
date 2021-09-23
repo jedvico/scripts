@@ -8,6 +8,9 @@
     by an id like WS1001, WS1002 and so on and you have configured WinRM
     in your domain before. Also, that you have a complete list of hostnames
     from your domain.
+    
+    This script make use of WinRM, wich must be enabled in hosts computers 
+    before attempting to contact and execute remote commands.
 .NOTES
     Author: @jedvico
 #>
